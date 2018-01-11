@@ -20,12 +20,6 @@ float: left;
 padding-top: 12%;
 padding-left: 5%;
 }
-embed {
-	margin-left: 15%;
-	margin-top: 5%;
-	margin-right: 5%;
-
-	}
 /*** BILLEDERNE FLAGENE**/
 img.engelsk {
 height: 8%;
@@ -158,7 +152,7 @@ footer{
 
 .footer{
 position: inherit;
-margin-top: 200px;
+margin-top: 10%;
 }
 
 footer p{
@@ -220,6 +214,13 @@ margin-left: 75%;
 margin-top: 0%;
 position: absolute;
 }
+embed{
+height:168px;
+width:300px;
+margin-left: 10%;
+margin-top: 5%;
+margin-right: 10%;
+}
 
 /** DESKTOP ****/
 
@@ -228,7 +229,13 @@ body {
 margin: 0;
 padding: 0;
 }
-
+embed{
+height:562px;
+width:1000px;
+margin-left: 15%;
+margin-top: 5%;
+margin-right: 5%;
+}
 img.lands{
 margin-top: 5%;
 display: flex;
@@ -421,7 +428,6 @@ div.gallery img {
 height: auto;
 width: 30%;
 }
-}
 
 footer{
 	background-color: white;
@@ -435,6 +441,7 @@ footer{
 
 .footer{
 position: inherit;
+margin-top: 15%;
 }
 
 footer p{
@@ -452,4 +459,5 @@ footer i{
   margin-top: 2%;
 	font-size: 30px;
 	color: #a8a8a8;
+}
 }
