@@ -1,0 +1,365 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+font-family: "Josefin Sans", sans-serif;
+font-family: 'Unna', serif;
+}
+
+body{
+	margin: 0%;
+	padding: 0%;
+}
+#logo{
+  width: 12%;
+  height: 12%;
+  float: left;
+	padding-top: 12%;
+	padding-left: 5%;
+}
+
+/***  BILLEDERNE **/
+img.engelsk {
+	height: 8%;
+	width: 8%;
+	float:right;
+	margin-left: 2%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+img.dansk {
+	height: 7%;
+	width: 7%;
+		float:right;
+		margin-top: 5%;
+}
+/*** AL TEXT **/
+h1 {
+font-size: 18px;
+font-family: 'Josefin Sans', sans-serif;
+text-align: center;
+margin-top: 4%;
+color: #a8a8a8;
+}
+
+h2 {
+font-size: 18px;
+font-family: 'Josefin Sans', sans-serif;
+text-align: center;
+color: #a8a8a8;
+padding-bottom: 5%;
+}
+
+h3 {
+font-size: 300%;
+font-family: 'Josefin Sans', sans-serif;
+text-align: left;
+margin-left: 0%;
+margin-top: 0%;
+padding-top: 12%;
+color: #a8a8a8;
+}
+
+h4 {
+  font-size: 65%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  margin-left: 18%;
+  margin-top: 0%;
+	color: #a8a8a8;
+}
+
+p {
+font-family: 'Unna', serif;
+font-size: 15px;
+width: 100%;
+text-align: center;
+margin-right: 2%;
+padding-left: 5%;
+padding-right: 5%;
+line-height: 30px;
+color: #a8a8a8;
+}
+
+/* FACEBOOOKKKK */
+i.fa.fa-facebook-square.fa-2x
+{
+	color: #a8a8a8;
+	font-size: 300%;
+	margin-left: 40%;
+	margin-bottom: 5%;
+}
+i.fa.fa-instagram{
+	font-size: 300%;
+	color: #a8a8a8;
+	margin-left: 2%;
+}
+
+/* MENUBAREN */
+.spacer {
+	max-width: 1200px;
+	width: 100%;
+	height: 2px;
+	background: #a8a8a8;
+	margin: 4px 0px;
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+#navigation {
+font-family: 'Unna', serif;
+	max-width: 1200px;
+	width: 100%;
+	padding: 2px;
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+	text-align: center;
+}
+#navigation li {
+	display: inline-block;
+	font-family: 'Unna', serif;
+}
+#navigation a {
+	margin: 0 9px 0 9px;
+	padding: 3px 5px 0 5px;
+	text-decoration: none;
+	color: #a8a8a8;
+	border-radius: 10px;
+	font-family: 'Unna', serif;
+}
+#navigation a:hover{
+	background: #a8a8a8;
+	padding-bottom: 2px;
+	color: #FFF;
+	font-family: 'Unna', serif;
+}
+#navigation a.selected{
+	background: #a8a8a8;
+	padding-bottom: 2px;
+	color: #FFF;
+	font-family: 'Unna', serif;
+}
+
+div.gallery {
+    margin: 30px;
+    float: left;
+		margin-left: 5%;
+}
+
+div.gallery:hover {
+    border: 0px solid grey;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+		border-radius: 25px;
+}
+
+div.desc {
+	margin-top: 5%;
+    text-align: left;
+		color: #a8a8a8;
+		line-height: 25px;
+}
+
+/** DDDDDDESKTOP ****/
+
+@media screen and (min-width: 480px) {
+    body {
+			margin: 0;
+			padding: 0;
+    }
+		#logo{
+		  width: 10%;
+		  height: 10%;
+		  float: left;
+			padding-top: 3%;
+			padding-left: 5%;
+		  }
+				/***  BILLEDERNE **/
+				img.engelsk {
+					height: 4.5%;
+					width: 4.5%;
+					float:right;
+					margin-left: 2%;
+					margin-right: 5%;
+					margin-top: 2%;
+				}
+				img.dansk {
+					height: 4%;
+					width: 4%;
+						float:right;
+						margin-top: 2%;
+				}
+				/*** AL TEXT **/
+				h1 {
+				font-size: 30px;
+				font-family: 'Josefin Sans', sans-serif;
+				text-align: center;
+				margin-top: 5%;
+				color: #a8a8a8;
+				}
+
+				h2 {
+				  font-size: 30px;
+				  font-family: 'Josefin Sans', sans-serif;
+				  text-align: center;
+					color: #a8a8a8;
+					margin-left: 50%;
+					margin-top: 5%;
+				}
+
+				h3  {
+         font-family: "Josefin Sans", sans-serif;
+         text-align: center;
+         margin-top: 4%;
+         margin-left: 15%;
+         font-size: 600%;
+         color: #a8a8a8;
+         padding: 0px;
+         position: absolute;
+         margin-bottom: 10%;
+       }
+
+				h4 {
+					font-size: 133.5%;
+				  font-family: 'Josefin Sans', sans-serif;
+				  text-align: left;
+					margin-top: 10%;
+					margin-left: 15.5%;
+					position: absolute;
+					color: #a8a8a8;
+				}
+
+				p {
+				  font-size: 20px;
+				  font-family: 'Unna', serif;
+					color: #a8a8a8;
+				}
+
+				/* FACEBOOK */
+				i.fa.fa-facebook-square.fa-2x
+				{
+					color: #a8a8a8;
+					font-size: 300%;
+					margin-left: 45%;
+					margin-top: 0%;
+					margin-bottom: 2%;
+				}
+				i.fa.fa-instagram{
+					font-size: 300%;
+					color: #a8a8a8;
+					margin-left: 2%;
+					margin-bottom: 2%;
+				}
+
+				/* MENUBAREN */
+				.spacer {
+				  max-width: 100%;
+				  width: 100%;
+				  height: 2px;
+				  background: #a8a8a8;
+				  margin: 4px 0px;
+				  float: left;
+				  margin-top: 1%;
+				  margin-bottom: 1%;
+				}
+				#navigation {
+				font-family: 'Unna', serif;
+				  max-width: 100%;
+				  width: 95%;
+				  padding: 1px;
+				  list-style: none;
+				  display: inline-block;
+				  font-size: 10px;
+				  text-align: center;
+				}
+				#navigation li {
+				  display: inline-block;
+				  font-family: 'Unna', serif;
+				  font-weight: bold;
+				  font-size: 200%;
+				  margin-left: 5%;
+				  margin-right: 5%;
+				}
+				#navigation a {
+				  text-decoration: none;
+				  color: #a8a8a8;
+				  border-radius: 10px;
+				  font-family: 'Unna', serif;
+				}
+				#navigation a:hover{
+				  background: #a8a8a8;
+				  padding-bottom: 2px;
+				  color: #FFF;
+				  font-family: 'Unna', serif;
+				}
+				#navigation a.selected{
+				  background: #a8a8a8;
+				  padding-bottom: 2px;
+				  color: #FFF;
+				  font-family: 'Unna', serif;
+				}
+
+				.gallery {
+				    margin: 40px;
+				    float: left;
+				    width: 290px;
+						margin-left: 5%;
+				}
+
+				.gallery:hover {
+				    border: 0px solid grey;
+				}
+
+				div.gallery img {
+				    width: 100%;
+				    height: auto;
+						border-radius: 25px;
+						margin-left: 20%;
+				}
+
+				div.desc {
+						color: #a8a8a8;
+						line-height: 25px;
+						margin-left: 35%;
+						margin-top: 5%;
+				}
+
+footer{
+	background-color: white;
+  padding-left: 0%;
+  margin-bottom: 0px;
+  max-width: inherit;
+	width: 100%;
+  clear: both;
+  border-top: 2px solid rgb(200, 200, 200);
+
+}
+
+.footer{
+position: inherit;
+}
+
+footer p{
+  display:inline-block;
+  font-size: 1em;
+}
+
+footer p a{
+  color: grey;
+  text-decoration: none;
+}
+
+footer i{
+	margin-bottom: 3%;
+  margin-top: 2%;
+	font-size: 30px;
+	color: #a8a8a8;
+}
+}
