@@ -167,6 +167,37 @@ div.desc {
 		line-height: 25px;
 }
 
+footer{
+	background-color: white;
+  padding-left: 0%;
+  margin-bottom: 0px;
+  max-width: inherit;
+	width: 100%;
+  clear: both;
+  border-top: 2px solid rgb(200, 200, 200);
+}
+
+.footer{
+position: inherit;
+}
+
+footer p{
+  display:inline-block;
+  font-size: 1em;
+}
+
+footer p a{
+  color: grey;
+  text-decoration: none;
+}
+
+footer i{
+	margin-bottom: 3%;
+  margin-top: 2%;
+	font-size: 30px;
+	color: #a8a8a8;
+}
+
 /** DDDDDDESKTOP ****/
 
 @media screen and (min-width: 480px) {
@@ -210,7 +241,7 @@ div.desc {
 				  font-family: 'Josefin Sans', sans-serif;
 				  text-align: center;
 					color: #a8a8a8;
-					margin-left: 50%;
+					margin-left: 30%;
 					margin-top: 5%;
 				}
 
@@ -327,8 +358,9 @@ div.desc {
 				div.desc {
 						color: #a8a8a8;
 						line-height: 25px;
-						margin-left: 35%;
+						margin-left: 20%;
 						margin-top: 5%;
+						padding-left: 7%;
 				}
 
 footer{
