@@ -76,7 +76,7 @@ i.fa.fa-facebook-square.fa-2x
 {
 	color: #a8a8a8;
 	font-size: 300%;
-	margin-left: 45%;
+	margin-left: 40%;
 }
 
 i.fa.fa-instagram{
@@ -158,7 +158,7 @@ figure{
 	display: inline-block;
 	text-align: center;
 	margin: 1em 3.5vw;
-	margin-left: 80px;
+	margin-left: 60px;
 	margin-top: 80px;
 	padding: 0;
 }
@@ -254,8 +254,8 @@ h3 {
   color: #a8a8a8;
 }
 p {
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 10%;
+margin-right: 10%;
 font-family: "Josefin Sans", sans-serif;
 color: #a8a8a8;
 line-height: 150%;
@@ -314,13 +314,15 @@ figure img{
 	height: 200px;
 	border-radius: 25px;
 }
+
 figure{
 	display: inline-block;
 	text-align: center;
 	margin: 1em 3.5vw;
-	margin-left: 85px;
+	margin-left: 100px;
 	margin-top: 80px;
-	padding: 0;}
+	padding: 0;
+}
 
 /* FACEBOOK */
 i.fa.fa-facebook-square.fa-2x {
@@ -330,6 +332,7 @@ i.fa.fa-facebook-square.fa-2x {
   margin-top: 0%;
   margin-bottom: 2%;
 }
+
 i.fa.fa-instagram {
   font-size: 300%;
   color: #a8a8a8;
