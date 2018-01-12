@@ -385,12 +385,12 @@ footer p{
   font-size: 1em;
 }
 
-footer p a {
+footer p a{
   color: grey;
   text-decoration: none;
 }
 
-footer i {
+footer i{
 	margin-bottom: 3%;
   margin-top: 2%;
 	font-size: 30px;
